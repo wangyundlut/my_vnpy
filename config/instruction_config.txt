@@ -1,0 +1,15 @@
+这里存放所有的常数变量
+
+模仿vnpy.vnpy.trader.language里面的设置
+原vnpy,常量写入vnpy.vnpy.trader.language的chinese,english文件夹
+此处用config文件，作为配置文件，写在这里
+
+本文件夹 config.ini 相当于原vnpy里面的globalsetting，全局设置变量
+
+这里需要把u''，还有后面的注释删除，因为python读取ini文件时，直接读取等号后面的东西
+注释要写到上面来
+这里目前只修改chinese的，英文的暂时不考虑
+
+python3 没有unicode这一说法，所以没有Unicode空这个东西
+
+config  __init__.py文件下有绝对路径，不同电脑需要下载
